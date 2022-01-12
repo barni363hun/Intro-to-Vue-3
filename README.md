@@ -26,10 +26,8 @@ Helyes válasz: `.`
 
 # Code challenge 2
 
-Keress meg a legfrissebb Vue.js 3 CDN hivatkozást, majd cserélje le az index.html állományban a régit!
+Írd át a ReviewForm componenst úgy, hogy ne legyen kötelező kitölteni a név mezőt!
 
 # Code challenge 3
 
-Az index.html dokumentum végén készítsen h3-as szintű címsort, melyben jelenítse meg az aktuális hónap sorszámát a következő minta szerint!
-
-Minta: `Ordinal number of the current month: 1.`
+A "submit" gomb megnyomásakor felugró ablakban kérjen megerősítést a felhasználótól a művelet végrehajtására!

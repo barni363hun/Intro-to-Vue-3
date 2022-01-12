@@ -42,6 +42,7 @@ app.component("review-form", {
   methods: {
     onSubmit() {
       if (
+        // solution2
         this.name === "" ||
         this.review === "" ||
         this.rating === null ||
