@@ -1,28 +1,28 @@
 # Kérdések
 
-## 1. A Vue modul melyik metódusával hozzuk létre a Vue3 alkalmazás osztálypéldányát?
+## 1. Melyik tulajdonsággal érhetjük el, hogy az adat megváltozásának hatására frissüljön a hozzá tartozó mező?
 
-- createApp() `(helyes válasz)`
-- createVue()
-- createVue3()
-- installVue()
-- installApp()
+- :
+- @
+- v-model `(helyes válasz)`
+- v-on:
+- v-bind:
 - Egyik sem jó válasz a felsoroltak közül.
 
-## 2. Minek nevezik a következő példán látható Vue elemet?
+## 2. Miket vált valóra az alábbi tulajdonság?
 
-Példa: `<h1>{{ product }}</h1>"`
+Példa: `@submit.prevent="onSubmit"`
 
-- double curly brace syntax `(helyes válasz)`
-- mustache syntax `(helyes válasz)`
-- reactive syntax
-- insertion syntax
+- meghívja az onSubmit metódust `(helyes válasz)`
+- megakadályozza a weboldal frissítését `(helyes válasz)`
+- meghívja a prevent metódust az "onSubmit" értékkel
+- megakadályozza a submit oszály "onSubmit" metódusának meghívását
 
-## 3. Melyik kétszavas angolnyelvű szakkifejés állhat a kérdőjelek helyén?
+## 3. Hogyan egészítsük ki a parancsot, hogy típuskényszerítsük az értéket?
 
-"Vue has an entire `???` that handles updates. When a data value changes, anywhere relying on that data will automatically update for us. We don’t have to do anything to make that happen."
+" v-model`???`number="rating" "
 
-Helyes válasz: `reactivity system`
+Helyes válasz: `.`
 
 # Code challenge 2
 
